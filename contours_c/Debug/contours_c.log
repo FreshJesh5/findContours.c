@@ -1,2 +1,4 @@
 ﻿  contours.c
+d:\programming\opencv\contours_c\contours_c\contours.c(6): warning C4005: '_CRT_SECURE_NO_WARNINGS': macro redefinition
+  d:\programming\opencv\contours_c\contours_c\contours.c(6): note: command-line arguments:  see previous definition of '_CRT_SECURE_NO_WARNINGS'
   contours_c.vcxproj -> D:\Programming\opencv\contours_c\Debug\contours_c.exe

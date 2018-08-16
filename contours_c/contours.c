@@ -3,6 +3,7 @@
 #include <stdlib.h>
 #include <assert.h>
 
+#define _CRT_SECURE_NO_WARNINGS
 #define HOLE_BORDER 1
 #define OUTER_BORDER 2
 
@@ -538,7 +539,7 @@ void saveImageFile(const char * file_name, int h, int w, struct Node *hierarchy,
 	bmpinfoheader[10] = (unsigned char)(h >> 16);
 	bmpinfoheader[11] = (unsigned char)(h >> 24);
 
-	fopen_s(&f, file_name, "wb");
+	f = fopen(file_name, "wb");
 	fwrite(bmpfileheader, 1, 14, f);
 	fwrite(bmpinfoheader, 1, 40, f);
 	for (int i = 0; i<h; i++) {
