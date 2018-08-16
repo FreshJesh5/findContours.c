@@ -464,7 +464,7 @@ struct Pixel chooseColor(int n) {
 	case 4:
 		setPixel(&tmp, 0, 0, 255);
 		return tmp;
-	case 5:
+	default:
 		setPixel(&tmp, 139, 0, 255);
 		return tmp;
 	}

@@ -1,3 +1,2 @@
 ﻿  contours.c
-d:\programming\opencv\contours_c\contours_c\contours.c(471): warning C4715: 'chooseColor': not all control paths return a value
   contours_c.vcxproj -> D:\Programming\opencv\contours_c\Debug\contours_c.exe
